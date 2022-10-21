@@ -11,7 +11,7 @@ class AutocompleteSearch : AppCompatActivity() {
     //declaring the binding
     private lateinit var binding: ActivityAutocompleteSearchBinding
     //declaring the array to be filtered
-    val names = arrayOf("noki", "noki2", "niloy", "sinha", "not Sinha", "Srilanka")
+    val names = listOf("Bayern Munich", "Barcelona", "Dortmund", "Real Madrid", "Paris Saint Germain", "West Ham", "Roma", "Chelsea", "Wigan Athletic", "Charlton", "Saint Ettiene", "Liverpool")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //initializing the binding
